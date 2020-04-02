@@ -1,5 +1,12 @@
 .jumbotron {
     margin: 0;
     padding: 30px;
-    
 }
+.navbar {
+    background-color: blue;
+}
+
+body { 
+    background-color: lightblue;
+}
+
