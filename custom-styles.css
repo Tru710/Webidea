@@ -1,12 +1,50 @@
-.jumbotron {
-    margin: 0;
-    padding: 30px;
+
+.navbar-brand{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
 }
+
 .navbar {
-    background-color: blue;
+    background: rgba(57, 78, 58, 0.9);
+    
 }
 
-body { 
-    background-color: lightblue;
+
+.jumbotron {
+    background-color: rgb(176, 168, 168);
+    background-image: url("images/silverware.jpg");
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+    border-bottom: white solid 3px;
+       
 }
 
+#jtrontitle {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+}
+
+body {
+    background-color: rgba(36, 43, 80, 0.529);
+    
+}
+
+.site-footer {
+
+    background-color:rgba(36, 43, 80, 0.529);
+    padding: 20px
+}
+
+#aboutUs {
+    border-bottom: white solid 5px;
+    padding: 4pc;
+}
+
+#titlejtron {
+    font-family: 'Satisfy', cursive;
+    
+}

@@ -1,62 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+      
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> 
+      <link rel="stylesheet" href="custom-styles.css" />
+
+      <link href="https://fonts.googleapis.com/css2?family=Sen:wght@800&family=Spicy+Rice&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> 
-    <link rel="stylesheet" href="custom-styles.css" />
+    
 
-    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@800&family=Spicy+Rice&display=swap" rel="stylesheet">
-   
-   
-
-    <title>On The Bay</title>
-</head>
-<body>
-  
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">On the Bay</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
+      <title>On The Bay</title>
+  </head>
+  <body>
+    <!--------------------------Navbar------------------------------------> 
+      <nav class="navbar navbar-expand-sm navbar-dark  sticky-top">
+        <a class="navbar-brand" href="#">On the Bay</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+   <!-------------------------------------------------------------------->
+    
+   <!--------------Jumbotron------------------------------------>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="row">
+        <div class="col text-center " id="titlejtron">
+          <div id="jtrontitle">
+            <h1 class="display-4">On The Bay</h1>
+          </div>
+        </div>
       </div>
-    </nav>
-  </div>
+        
+    </div>
+    <!----about us and images-->
+    <div class="container"> 
+
+        <div class="row" id="aboutUs">
+            <div class="col-sm-12 col-md-4 mx-auto">
+              <div class="media">
+                <img src="images/chef.jpeg" id="chefHands" class=" rounded  img-thumbnail  img-fluid" height="400" width="320">
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <img src="images/servingfood.jpeg" class="rounded  img-thumbnail   d-none d-md-block  " id="servingFood" height="600" width="300">
+            </div>
+            <div class="col-sm-12  col-md-4 align-self-center">
+              <h2 align="center">  About Us</h2>
+              <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias at totam debitis, consectetur fuga iusto, enim aspernatur sapiente non modi sint laboriosam vero. Nemo similique voluptates consequuntur voluptas iste enim. </p>
+              <p></p>
+            </div>
+        </div>
+      
+      
+        <!--- House Favorites cards -->
+      <div class="row mx-auto align-items-center">
+        <div class="col-md-4 col-sm-12">
+          <div class="card text-white bg-secondary" style="width: 18rem;">
+            <img src="images/guiness.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card text-white bg-secondary" style="width: 18rem;">
+            <img src="images/sliders.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card text-white bg-secondary" style="width: 18rem;">
+            <img src="images/fruittarts.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+     
+   <!---- footer-->  
+    <footer class="site-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-4 col-sm-2 offset-1">
+                  <h5>Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="col-6 col-sm-5 text-center">
+                  <h5>Social</h5>
+                  <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                  <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+              </div>
+              <div class="col-sm-4 text-center">
+                  <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-831-454-000</a><br>
+                  <a role="button" class="btn btn-link" href="#"><i class="fa fa-envelope-o"></i> Onthebay@gmail.com</a>
+              </div>
+          </div>
+      </div>
+    </footer>
 
 
 
 
+   <!- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
-
-
-
-
-<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
-
-</body>
+  </body>
 </html>
